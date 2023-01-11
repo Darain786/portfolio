@@ -160,6 +160,7 @@
   .skill{
     background-color: rgb(209, 213, 240);
     height: 500px;
+    margin-left: 300px;
   }
   .skill-head{
     font-size: 35px;
@@ -190,6 +191,7 @@
     height: 600px;
     overflow: auto;
     margin-bottom: 30px;
+    margin-left: 300px;
   }
   .gallery-img{
     display: grid;
@@ -199,5 +201,6 @@
   .gallery{
     background-color: rgb(203, 203, 233);
     padding: 30px;
+    margin-left: 300px;
   }
   
