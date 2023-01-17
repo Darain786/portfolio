@@ -4,7 +4,7 @@
     background:linear-gradient(to top,rgb(255, 0, 0),rgb(16, 5, 173));
     text-align: center;
     height: 100%;
-    width: 23%;
+    width: 22.3%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -42,7 +42,7 @@
     color: rgb(0, 255, 191);
     transition: 700ms;
    }
-   a{
+   .link a{
     color: rgb(181, 161, 255);
     font-size: 20px;
     text-decoration: none;
@@ -61,11 +61,11 @@
     color:white;
     margin-top: 40px;
    }
-   a:hover{
+   .link a:hover{
     color: white;
     background-color:rgb(98, 0, 255);
-    
-    transition: 1s;
+    padding: 7px;
+    padding-left: 20px;
    }
    
    .bgshade{
@@ -211,6 +211,19 @@
     background-color: rgb(203, 203, 233);
     padding: 30px;
   }
+  .all-template{
+    padding: 10px;
+    background-color: rgb(254, 218, 170);
+  }
+  .template a{
+    text-decoration: none;
+  }
+  .template{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    text-align: center;
+    column-gap: 40px;
+  }
 }
 @media screen and (orientation:portrait){
   aside{
@@ -255,7 +268,7 @@
     color: rgb(0, 255, 191);
     transition: 700ms;
    }
-   a{
+   .link a{
     color: rgb(255, 255, 255);
     font-size: 10px;
     text-decoration: none;
@@ -275,10 +288,7 @@
     margin-left: 15px;
     
    }
-   .copy{
-    color:white;
-    margin-top: 40px;
-   }
+   
    .bgshade{
     background-color: rgba(0,0,0,0.5);
     height: 230px
@@ -410,8 +420,8 @@
   .gallery-img{
     display: grid;
     grid-template-columns: 6fr 6fr;
-    row-gap: 20px; 
-    margin-left:3%;
+    gap: 20px; 
+    
   }
   .gallery{
     background-color: rgb(203, 203, 233);
@@ -427,4 +437,22 @@
 .last-img{
   display: none;
 }
+.all-template{
+  padding: 10px;
+  background-color: rgb(254, 218, 170);
 }
+.template a,h2{
+  text-decoration: none;
+  font-size: 15px;
+  margin-bottom: 12%;
+}
+.template{
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  text-align: center;
+  column-gap: 12%;
+  
+}
+}
+
+

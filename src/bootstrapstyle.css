@@ -1,0 +1,400 @@
+.cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(237, 233, 233);
+    height: 50px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.leftbar span{
+    margin-left: 50px;
+}
+.dilevry{
+    font-size: 12px;
+    font-weight: 500;
+}
+select{
+    border: none;
+    border-left: 1px solid rgb(176, 171, 171);
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: rgba(0,0,0,0.0);
+}
+.rightbar{
+    display: flex;
+}
+.rightbar div{
+    margin-right: 45px;
+}
+.faq span{
+    margin-right: 15px;
+    font-weight: 600;
+}
+.logo span{
+    color: gray;
+    margin-right: 15px;
+
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+}
+.shoplogo{
+    font-size: 27px;
+    font-weight: bold;
+}
+.menu span{
+    margin-left: 20px;
+    font-weight:500;
+
+}
+.menulogo span{
+    margin-left: 15px;
+}
+main{
+    background-color: rgb(31, 30, 30);
+    padding: 10px;
+    text-align:center;
+    color: white;
+    margin-left: -10px;
+    margin-right: -10px;
+    font-weight:500;
+   }
+   section{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    height: 450px;
+    margin-top: 15px;
+    margin-left: -10px;
+    margin-right: -10px;
+   }
+   .women{
+    background-image: url(../public/img/faishion1.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+   }
+   .men{
+    background-image: url(../public/img/faishion2.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+
+   }
+   .kids{
+    background-image: url(../public/img/faishon3.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+
+   }
+   button{
+    width:200px;
+    background-color: white;
+    height: 50px;
+    border: none;
+    font-weight: 500;
+   }
+   .brand-tittle{
+    font-size: 40px;
+    font-weight: bold;
+    color:white;
+    text-shadow: 2px 2px 2px rgb(75, 73, 73);
+   }
+   .section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    border-bottom: 1px solid gray;
+   }
+   .sec-logo{
+    color:red;
+    font-size: 20px;
+    margin-left: -50px;
+   }
+   .sec-tittle{
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 27px;
+   }
+   .section p{
+    color: gray;
+    font-size: 15px;
+    font-weight: 450;
+    margin-top: 8px;
+   }
+   .section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+   }
+   .sec2{
+    width: 600px;
+    text-align: center;
+   }
+   .sec2-tittle{
+    font-size: 35px;
+    font-weight: 500;
+   }
+   .sec2-para{    
+    color:gray;
+    font-size: 13px;
+    font-weight: bold;
+   }
+   .sec2 p{
+    color: rgb(99, 95, 95);
+    font-size: 15px;
+    font-weight: 450;
+    margin-top: 15px;
+   }
+   .faishion4{
+    background-image: url(../public/img/faishion4.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    transform: translateX(0px);
+    transition:500ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.faishion5{
+    background-image: url(../public/img/faishion5.jpg);
+    background-size: cover;
+    width: 700px;
+    height: 400px;
+    transform: translateX(0px);
+    transition:500ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.faishion7{
+    background-image: url(../public/img/faishion7.jpg);
+    background-size: cover;
+    width: 700px;
+    height: 400px;
+    transform:translateX(0px);
+    transition: 500ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.faishion8{
+    background-image: url(../public/img/faishion8.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    transform:translateX(0px);
+    transition:500ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section1-sub,.section1-sub{
+    display: flex;
+    gap:30px;
+    margin-bottom: 30px;
+}
+.section1-main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.faishion4:hover{
+    transform: translateX(-10px);
+    transition:500ms
+}
+.faishion5:hover{
+    transform: translateX(-10px);
+    transition:500ms
+}
+.faishion7:hover{
+    transform: translateX(-10px);
+    transition:500ms
+}
+.faishion8:hover{
+    transform: translateX(-10px);
+    transition:500ms
+}
+.div{
+    overflow:hidden;
+    width: 400px;
+    height: 400px;
+}
+.div:hover .faishion4{
+    width: 420px;
+}
+.div1:hover .faishion5{
+    width: 720px;
+}
+.div1:hover .faishion7{
+    width: 720px;
+}
+.div:hover .faishion8{
+    width: 420px;
+}
+.div1{
+    
+    overflow:hidden;
+    width: 700px;
+    height: 400px;
+}
+a{
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+   text-align: center;
+   text-shadow: 1px 1px 1px black;
+   
+}
+a:hover{
+   color:white;
+}
+.h3{
+   color:white;
+   text-shadow: 1px 1px 1px black;
+}
+.month-seller{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    height:200px
+}
+.month-seller span{
+    margin-right: 30px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    gap:40px;
+}
+.shop-varity{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.item-data div{
+    color:gray;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.item-data span{
+    color:gray;
+    font-weight: 500;
+}
+.more-tittle{
+    font-weight: 500;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    text-decoration: underline;
+    color: black;
+}
+.more-tittle:hover{
+    text-decoration:none;
+}
+.latest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    text-align: center;
+}
+.latest-span{
+    color:gray;
+    font-size: 15px;
+    font-weight: 500;
+}
+.box-1{
+    border: 1px solid gray;
+    width: 320px;
+    height: 340px;
+    padding: 20px;
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 500;
+    color: gray;
+}
+.box-1 img{
+    margin-bottom: 20px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+.brand-name{
+    height:600px;
+    background-color: rgb(212, 209, 209);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: -15px;
+    margin-right: -12px;
+}
+.brand-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:15px;
+    margin-top: 50px;
+}
+.brand-img img{
+    margin-bottom: 50px;
+}
+footer{
+    height:600px;
+    background-color: rgb(42, 40, 40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -15px;
+    margin-right: -12px;
+}
+input{
+    background-color: rgb(79, 76, 76);
+    padding: 17px;
+    color:white;
+    border:none;
+    margin-right: 30px;
+}
+.submit{
+    color:white;
+    border:none;
+    font-weight: 500;
+    width: 150px;
+    padding:17px;
+}
+.adress{
+    display: flex;
+    gap:100px;
+    margin-top:100px;
+}
+::placeholder{
+    color: gray;
+    font-weight: 500;
+}
+.address-data{
+    color: gray;
+    font-weight: 500;
+}
+h5{
+    color:white;
+}
